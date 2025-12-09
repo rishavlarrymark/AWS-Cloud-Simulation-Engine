@@ -1,15 +1,14 @@
-# AWS Cloud Simulation Engine — Terraform + LocalStack
+AWS Cloud Simulation Engine — Terraform + LocalStack
 
-This repository provides a complete *AWS Cloud Simulation Environment* using:
+This repository provides a complete AWS Cloud Simulation Environment using:
 
-- *Terraform*
-- *LocalStack*
-- *AWS CLI*
+Terraform
 
----
-,,,
-### 📁 Folder Structure
+LocalStack
 
+AWS CLI
+
+📁 Folder Structure
 AWS_Cloud_Simulation_Engine/
 ├── days/                         # Add Day01, Day02, ...
 │   └── Day01/
@@ -43,49 +42,49 @@ AWS_Cloud_Simulation_Engine/
 │   └── variables.tf
 │
 └── README.md
-,,,
-yaml
-Copy code
 
----
+🚀 Usage
 
-## 🚀 Usage
-
-Create a folder under /days for each work session, if needed:
+Create a folder under /days for each work session:
 
 days/Day01/
 days/Day02/
 
-yaml
-Copy code
 
-Add your Terraform code, notes, config files, and scripts inside each day’s directory.
+Add your Terraform code, notes, config files, and scripts inside each day's directory.
 
----
+🧰 Technologies Used
 
-## 🧰 Technologies Used
+Terraform — Infrastructure as Code
 
-- *Terraform* for Infrastructure as Code  
-- *LocalStack* for AWS simulation  
-- *AWS CLI* for command execution  
+LocalStack — AWS service simulation
 
----
+AWS CLI — Command execution
 
-## 🎯 Project Goal
+🎯 Project Goal
 
-To simulate real AWS services locally and build:
+Simulate real AWS services locally and build:
 
-- VPC  
-- IAM  
-- S3  
-- EC2  
-- Lambda  
-- DynamoDB  
-- SQS / SNS  
-- CloudWatch  
-- EventBridge  
-- KMS  
-- API Gateway  
-- and a complete event-driven architecture
+VPC
 
----
+IAM
+
+S3
+
+EC2
+
+Lambda
+
+DynamoDB
+
+SQS / SNS
+
+CloudWatch
+
+EventBridge
+
+KMS
+
+API Gateway
+
+Complete event-driven architecture
