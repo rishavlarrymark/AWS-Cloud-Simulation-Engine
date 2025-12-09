@@ -12,35 +12,35 @@ This repository provides a complete *AWS Cloud Simulation Environment* using:
 
 AWS_Cloud_Simulation_Engine/
 │
-├── days/                  # Add Day01, Day02, ... (optional)
+├── days/ # Add Day01, Day02, ... (optional)
 │
-├── docs/                  # Documentation, diagrams, screenshots
-│   ├── architecture/
-│   ├── screenshots/
-│   └── notes/
+├── docs/ # Documentation, diagrams, notes
+│ ├── architecture/
+│ ├── screenshots/
+│ └── notes/
 │
-├── scripts/               # Helper scripts
-│   ├── init.ps1
-│   └── init.sh
+├── scripts/ # Helper scripts
+│ ├── init.ps1
+│ ├── init.sh
+│ └── localstack/
+│ └── docker-compose.yml
 │
-├── localstack/            # LocalStack configuration
-│   ├── docker-compose.yml
-│   ├── config/
-│   └── scripts/
+├── config/ # Config files
 │
-├── infrastructure/        # Architecture components
-│   ├── vpc/
-│   ├── compute/
-│   ├── event-driven/
-│   └── storage/
+├── infrastructure/ # Architecture components
+│ ├── vpc/
+│ ├── compute/
+│ ├── event-driven/
+│ └── storage/
 │
-└── terraform/             # Terraform IaC
-    ├── modules/
-    └── environments/
-        ├── dev/
-        ├── stage/
-        └── prod/
-
+├── terraform/ # Terraform IaC
+│ ├── modules/
+│ └── environments/
+│ ├── dev/
+│ ├── stage/
+│ └── prod/
+│
+└── README.md
 
 yaml
 Copy code
