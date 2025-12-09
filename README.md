@@ -10,17 +10,16 @@ This repository provides a complete *AWS Cloud Simulation Environment* using:
 
 ### 📁 Folder Structure
 
-
 AWS_Cloud_Simulation_Engine/
-├── days/                     # Add Day01, Day02, ... (daily work logs)
-│   └── Day1/
+├── days/                     # Add Day01, Day02, ...
+│   └── Day01/
 │
 ├── docs/                     # Documentation, diagrams, screenshots
 │   ├── architecture/
 │   ├── screenshots/
 │   └── notes/
 │
-├── scripts/                  # Helper scripts (Bash, PowerShell)
+├── scripts/                  # Helper scripts
 │   ├── init.ps1
 │   ├── init.sh
 │   └── cleanup.sh
@@ -43,7 +42,7 @@ AWS_Cloud_Simulation_Engine/
 │   │   └── prod/
 │   └── variables.tf
 │
-└── README.md                 # Project documentation
+└── README.md
 
 yaml
 Copy code
